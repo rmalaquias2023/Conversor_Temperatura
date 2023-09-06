@@ -3,14 +3,11 @@ public class Main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int temperatura;
-        int temperatura_convertida;
 
         System.out.println("Bem vindo ao conversor de temperatura!!!");
         System.out.println("Qual a temperatura, em graus celsius você deseja converter?");
 
         temperatura = scanner.nextInt();
-        temperatura_convertida = scanner.nextInt();
-
 
         int temperaturaFahrenheit = (int) (temperatura * 1.8)+32;
 
